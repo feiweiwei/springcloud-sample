@@ -1,0 +1,20 @@
+server:
+  port: 8031
+spring:
+  application:
+    name: turbine-dashboard
+  rabbitmq:
+    host: 10.132.33.43
+    port: 5672
+    username: admin
+    password: admin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.132.33.43:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+#turbine:
+#  appConfig: usertest,open-gateway
+#  clusterNameExpression: "'default'"

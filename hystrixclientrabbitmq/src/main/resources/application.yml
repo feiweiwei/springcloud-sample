@@ -1,0 +1,11 @@
+spring:
+  application:
+      name: hystrix-mq
+  rabbitmq:
+    host: 10.132.33.43
+    port: 5672
+    username: admin
+    password: admin
+
+server:
+  port: 8081
