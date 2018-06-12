@@ -12,6 +12,10 @@
         <module>hystrixclient</module>
         <module>hystrixturbine</module>
         <module>hystrixclientrabbitmq</module>
+        <module>tomcat-apr</module>
+        <module>sleuth-testservice1</module>
+        <module>sleuth-testservice2</module>
+        <module>zipkin-server</module>
     </modules>
 
 
